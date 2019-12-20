@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="600.0" minWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller.DinoController">
+   <children>
+      <ImageView fx:id="DinoImage" fitHeight="400.0" fitWidth="400.0" layoutX="101.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="HomeButton" layoutX="526.0" layoutY="23.0" mnemonicParsing="false" onAction="#handle" text="Home" />
+      <Label fx:id="ZoneLabel" layoutX="43.0" layoutY="28.0" prefHeight="40.0" prefWidth="298.0">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="NameLabel" layoutX="242.0" layoutY="490.0" prefHeight="40.0" prefWidth="199.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="species" layoutX="242.0" layoutY="530.0" prefHeight="40.0" prefWidth="199.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
